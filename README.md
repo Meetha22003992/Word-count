@@ -6,13 +6,9 @@ PC
 Anaconda - Python 3.7
 ## ALGORITHM: 
 ### Step 1:Obtain the input of the file.
-
 ### Step 2: Initiate word count is 0.
- 
 ### Step 3: Split the line using line.split().
-
 ### Step 4:  Get the len of words and increment it.
-
 ### Step 5: Print the number of words got.
 
 ## PROGRAM:
