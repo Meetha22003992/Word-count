@@ -16,22 +16,23 @@ Anaconda - Python 3.7
 ### Step 5: Print the number of words got.
 
 ## PROGRAM:
-fname=input("Enter file name: ")
-
-num_words=0
-
-with open(fname,'r') as f:
-
-for line in f:
-    
-words=line.split()
-        
-num_words+=len(words)
-        
-print("Number of words: ",num_words)
+```
+n=input('Enter File name: ')
+wordslen=0
+with open(n,'r') as f:
+    for line in f:
+        words=line.split()
+        wordslen+=len(words)
+print("Number of wordds:",wordslen)
+```
 
 ### OUTPUT:
-![image](https://github.com/Meetha22003992/Word-count/assets/119401038/1ca83139-46b3-42a3-8ff1-5c52f4cb2723)
+Text File:
+
+![image](https://github.com/Meetha22003992/Word-count/assets/119401038/74bdc6e8-ca76-41d8-89aa-dd3e7be60f38)
+
+![image](https://github.com/Meetha22003992/Word-count/assets/119401038/909e6a0b-c9f0-4dd7-8015-1f57ad413934)
+
 
 ## RESULT:
 Thus the program is written to find the word count from a text.
