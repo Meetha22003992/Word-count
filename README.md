@@ -11,6 +11,8 @@ PC, Anaconda - Python 3.7
 5. Print the number of words got.
 ## PROGRAM:
 ```
+#Developed By: Meetha Prabhu
+#Reg No:212222240065
 n=input('Enter File name: ')
 wordslen=0
 with open(n,'r') as f:
